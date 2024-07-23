@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+    <main>
+        <div class="checkout-container">
+            <h2>Order Summary</h2>
+            <ul class="cart-items">
+                <!-- Cart items will be populated here dynamically from localStorage -->
+            </ul>
+            <p class="total">Total: $<span id="total">0.00</span></p>
+            <button class="complete-order">Complete Order</button>
+        </div>
+    </main>
+    <script src="checkout.js"></script>
+</body>
+</html>
